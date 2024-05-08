@@ -1,8 +1,8 @@
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
 const express = require("express");
-const adminRoutes = require("../backend/router/router");
-const eventRoutes = require("../backend/router/router");
+const adminRoutes = require("./router/router");
+const eventRoutes = require("./router/router");
 const cors = require("cors");
 
 dotenv.config();
